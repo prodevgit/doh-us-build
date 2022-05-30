@@ -1,0 +1,94 @@
+<div>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+        <td class="p20-15" style="padding: 20px 20px;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="20" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td class="text"
+                        style="color:#333333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; padding-bottom:15px;">
+                        Hi {{item_instance.recipient}},</td>
+                </tr>
+                <tr>
+                    <td class="text"
+                        style="color:#333333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; padding-bottom:15px;">
+                        {{item_instance.verb}}.</td>
+                </tr>
+                <tr>
+                    <td class="p-0" style="padding: 0px;">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f6f6f6">
+                            <tr>
+                                <td class="p20-15-0" style="padding: 20px 20px 0px;">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+
+                                                        <td>
+                                                            <table width="100%" border="0" cellspacing="0"
+                                                                cellpadding="0">
+
+                                                                <tr>
+                                                                    <td class="text"
+                                                                        style="color:#333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-bottom:15px;">
+                                                                        <div
+                                                                            style="color:#999; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:0px;">
+                                                                            MOU created by : </div>
+                                                                        <strong> {{item_instance.actor}} </strong>
+                                                                    </td>
+                                                                    <td class="text"
+                                                                        style="color:#333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-left:100px; padding-bottom:15px;">
+                                                                        <div
+                                                                            style="color:#999; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:0px;">
+                                                                            MOU ID : </div>
+                                                                        {{item_instance.action_object.action_id}}
+                                                                    </td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td class="text"
+                                                                        style="color:#333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-bottom:15px;">
+                                                                        <div
+                                                                            style="color:#999; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:0px;">
+                                                                            MOU Name : </div>
+                                                                        {{item_instance.action_object.title}}
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class=”button” colspan="2"
+                                                                        style="border-radius: 50px; padding-bottom:30px;">
+                                                                        <a href="{{TARGET_URL}}" class="button-text"
+                                                                            style="color:#ffffff; text-decoration:none; background-color: #D43A3F; padding: 8px 15px 6px; border-radius: 50px; font-size:12px; font-family: 'Calibri', Helvetica, Arial, sans-serif; line-height:14px;"
+                                                                            target="_blank">View Notification</a>
+                                                                    </td>
+                                                                </tr> 
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="20" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td class="text"
+                        style="color:#333333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-bottom:15px;">
+                        Thank you, <br />
+                    Team DOH
+        </td>
+        </tr>
+       
+    </table>
+    </td>
+    </table>
+</div>
