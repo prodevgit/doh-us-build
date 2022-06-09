@@ -45,11 +45,14 @@
                                                                     {{item_instance.action_object.description}}
                                                                 </td>
                                                             </tr>
-                                                            {% comment %} <tr>
-                                                                <td class=”button” colspan="2" style="border-radius: 50px; padding-bottom:30px;">
-                                                                    <a href="{{TARGET_URL}}" class="button-text" style="color:#ffffff; text-decoration:none; background-color: #0B3A62; padding: 8px 15px 6px; border-radius: 50px; font-size:12px; font-family: 'Calibri', Helvetica, Arial, sans-serif; line-height:14px;" target="_blank">{% trans "View Notification" %}</a>
-                                                                </td>
-                                                             </tr> {% endcomment %}
+                                                            <tr>
+                                                                    <td class=”button” colspan="2"
+                                                                        style="border-radius: 50px; padding-bottom:30px;">
+                                                                        <a href="{{TARGET_URL}}" class="button-text"
+                                                                            style="color:#ffffff; text-decoration:none; background-color: #D43A3F; padding: 8px 15px 6px; border-radius: 50px; font-size:12px; font-family: 'Calibri', Helvetica, Arial, sans-serif; line-height:14px;"
+                                                                            target="_blank">View MOUs</a>
+                                                                    </td>
+                                                                </tr>
                                                          </table>
                                                      </td>
                                                  </tr>
@@ -64,6 +67,10 @@
                 </tr>
                 <tr>
                     <td height="20" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td class="text"style="color:#333333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-bottom:15px;"">
+                        Incase of any issues, please write us an email to <a style="color:#1978D4;"href="mailto:tms.support@doh.gov.ae">tms.support@doh.gov.ae</a></td>
                 </tr>
                 <tr>
                     <td class="text"style="color:#333333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-bottom:15px;"">{% trans "Thank you," %} <br/>
